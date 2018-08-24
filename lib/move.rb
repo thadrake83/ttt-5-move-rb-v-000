@@ -14,7 +14,7 @@ def input_to_index(input)
 end
 
 def move(board, index, token = "X")
-  binding.pry
+  #binding.pry
   board[index] = token
   
 end
